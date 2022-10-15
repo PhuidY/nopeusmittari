@@ -1,7 +1,7 @@
 # Nopeasti tehty nopeusmittari
 
 ---------
-Koneelta löyty tällänen niin päätin julkasta!
+Koneelta löyty tällänen ei välttis mun tekemä, mut päätin julkasta!
 
 Helposti muokattavissa.
 
