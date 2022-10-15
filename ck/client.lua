@@ -8,12 +8,12 @@ Citizen.CreateThread(function()
         local player = PlayerPedId()
 		local vehicle = GetVehiclePedIsIn(player, false)
             if IsPedInAnyVehicle(player, false) and GetSeatPedIsTryingToEnter(GetPlayerPed(-1)) == -1 or GetPedInVehicleSeat(vehicle, -1) == GetPlayerPed(-1) and GetIsVehicleEngineRunning(vehicle) then
-            local kmh = c(GetEntitySpeed(GetVehiclePedIsIn(PlayerPedId(), false))*3.6) --KM/H
-            local fuel = c(GetVehicleFuelLevel(GetVehiclePedIsIn(PlayerPedId(), false))*1.0)
+            local k = c(GetEntitySpeed(GetVehiclePedIsIn(PlayerPedId(), false))*3.6) --KM/H
+            local b = c(GetVehicleFuelLevel(GetVehiclePedIsIn(PlayerPedId(), false))*1.0)
 
 
-            teksti(7, 0.5, 0.93, 0.0, 0.0, kmh.." km/h", 0.5, 0.5)
-            teksti(7, 0.5, 0.95, 0.0, 0.0, "bensa: ~w~"..fuel, 0.45, 0.45)
+            teksti(7, 0.5, 0.93, 0.0, 0.0, k.." km/h", 0.5, 0.5)
+            teksti(7, 0.5, 0.95, 0.0, 0.0, "bensa: ~w~"..b, 0.45, 0.45)
         end
     end
 end)
