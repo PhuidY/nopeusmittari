@@ -1,1 +1,5 @@
-# nopeusmittari
+# Nopeasti tehty nopeusmittari
+
+---------
+
+Helposti muokattavissa.
